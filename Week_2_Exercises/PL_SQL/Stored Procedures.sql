@@ -1,4 +1,4 @@
--- Scenario 1: Process monthly interest
+-- Scenario 1: 
 
 
 CREATE OR REPLACE PROCEDURE ProcessMonthlyInterest IS
@@ -12,7 +12,7 @@ BEGIN
     COMMIT;
 END;
 /
--- Scenario 2: Implement employee bonus scheme
+-- Scenario 2:
 
 
 CREATE OR REPLACE PROCEDURE UpdateEmployeeBonus(p_department IN VARCHAR2, p_bonus_percentage IN NUMBER) IS
@@ -24,7 +24,7 @@ BEGIN
     COMMIT;
 END;
 /
--- Scenario 3: Transfer funds between accounts
+-- Scenario 3:
 
 CREATE OR REPLACE PROCEDURE TransferFunds(p_from_account IN NUMBER, p_to_account IN NUMBER, p_amount IN NUMBER) IS
 BEGIN
